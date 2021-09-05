@@ -1,0 +1,17 @@
+.slider {
+    background-image: url('../images/post-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.color-bgr {
+    background-color: #E6E7E7;
+}
