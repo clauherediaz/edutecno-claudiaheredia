@@ -1,0 +1,27 @@
+.button {
+    background: $nickel;
+    color: $white;
+    margin-bottom: 50px;
+}
+
+.navbar .navigation__link--active {
+    color: $fuzzy-wuzzy;
+}
+
+.slider__icon {
+    align-items: flex-end;
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 50%;
+}
+
+.pagination {
+    .page-link {
+        color: $eerie-black;
+    }
+    li .bg-color {
+        background-color: $nickel;
+        color: $white;
+    }
+}

@@ -1,0 +1,40 @@
+.author .author__card {
+    border: none;
+    margin: 20px;
+}
+
+.slider__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    color: $white;
+    text-align: center;
+}
+
+.slider__link {
+    display: block;
+    width: 30px;
+    color: $white;
+    transform: rotate(180deg);
+    font-size: $font-xlarge;
+    &:hover {
+        color: $fuzzy-wuzzy;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slider {
+        background-position: 100% 100%;
+    }
+    .slider__container {
+        width: 60vw;
+        min-height: 50%;
+    }
+    .slider__link {
+        width: 100px;
+        font-size: $font-xxlarge;
+        margin-top: 75px;
+    }
+}
